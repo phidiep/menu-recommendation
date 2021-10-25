@@ -1,6 +1,10 @@
-export const transpileDependencies = [
-  'vuetify'
-];
-export const publicPath = process.env.NODE_ENV === 'production'
-  ? '/menu-recommendation/'
-  : '/';
+module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+  ? '/my-project/'
+  : '/'
+}
+module.exports = {
+  transpileDependencies: [
+    'vuetify'
+  ]
+}
