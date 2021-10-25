@@ -38,19 +38,23 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <!-- <HelloWorld/> -->
+      <v-container>
+      <InputForm/>
+      </v-container>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
-
+// import HelloWorld from './components/HelloWorld';
+import InputForm from './components/InputForm';
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    // HelloWorld,
+    InputForm
   },
 
   data: () => ({
