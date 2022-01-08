@@ -9,19 +9,8 @@
       </v-avatar>
 
       <v-card-text>
-        <v-row
-          ><v-card-title class="text-h6" v-text="product.title"> 
-
-          </v-card-title>
-          <!-- <v-rating
-            :value="4.5"
-            color="amber"
-            dense
-            half-increments
-            readonly
-            size="14"
-          ></v-rating>
-          <div class="grey--text ms-4">4.5 (413)</div> -->
+        <v-row>
+          <v-card-title class="text-h6" v-text="product.title"> </v-card-title>
         </v-row>
         <v-row align="center" class="mx-0">
           <div class="product-detail">
@@ -57,6 +46,7 @@ export default {
 .product-image-wrap .image {
   width: 100%;
 }
+
 .product-detail {
   text-overflow: ellipsis;
   overflow: hidden;
